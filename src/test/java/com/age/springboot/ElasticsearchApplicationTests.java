@@ -25,7 +25,7 @@ public class ElasticsearchApplicationTests {
 
         for (Book book:bookRepository.findByBookNameLike("游")){
             System.out.println(book);
-            System.out.println(book.getId());
+            System.out.println(book.getBookName());
         }
     }
 
